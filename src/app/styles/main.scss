@@ -1,0 +1,8 @@
+.mainClass{
+    // opacity: 1;
+    pointer-events: none;
+    &.is-active{
+        opacity: 1 !important;
+        pointer-events: all !important;
+    }
+}
