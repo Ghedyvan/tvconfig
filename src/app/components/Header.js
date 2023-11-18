@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="px-6 my-9 w-full flex justify-center z-[99] items-center">
-      <Link href={ "/" } className="z-[99]"><Image src={logo} /></Link>
+      <Link href={ "/" } className="z-[99]"><Image src={logo} alt="Logo headder"/></Link>
       {/* <button class="hamburger !pr-0" type="button">
         <span class="hamburger-box ">
           <span class="hamburger-inner"></span>

@@ -7,7 +7,6 @@ import Footer from './components/Footer'
 import Aviso from './components/Aviso'
 import Main from "./components/Main";
 import { useEffect } from "react";
-import { Html } from "next/document";
 
 const inter = Inter({ subsets: ['latin'] })
 

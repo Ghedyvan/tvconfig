@@ -27,7 +27,7 @@ export default function iphone() {
         </li>
         <li className="flex gap-4 mt-4">
           <div>3</div>
-          Abra o aplicativo instalado e selecione a opção "ADD YOUR PLAYLIST"
+          Abra o aplicativo instalado e selecione a opção ADD YOUR PLAYLIST
         </li>
         <li className="flex gap-4 mt-4">
           <div>4</div>
