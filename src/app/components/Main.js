@@ -3,11 +3,11 @@ import "../styles/main.scss"
 
 export default function Main() {
   return (
-    <div className="px-[24px] mainClass ">
-       <h1 className="w-full max-w-[342px] text-center text-[40px] pt-[22px] font-bold">
+    <div className="px-[24px] mainClass flex flex-col justify-center items-center ">
+       <h1 className="w-full text-center text-[40px] pt-[22px] font-bold items-center flex justify-center">
        Configure seu APP sem dificuldades
         </h1>
-      <p className="mt-9 w-full max-w-[342px] text-center opacity-70">
+      <p className="mt-9 w-full max-w-[400px] flex text-center opacity-70 justify-center">
         Para fazer a configuração completa do seu dispositivo basta selecionar o
         tipo de dispositivo abaixo e seguir as instruções
       </p>

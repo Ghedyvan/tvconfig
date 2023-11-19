@@ -1,9 +1,9 @@
 import Header from "@/app/components/Header";
 import Buttons from "@/app/components/Buttons";
 
-export default function iphone() {
+export default function lg() {
   return (
-    <div className="px-[24px]">
+    <div className="px-[24px] flex flex-col justify-center items-center">
       <h1 className="w-full max-w-[342px] text-center text-[40px] pt-[22px] font-bold">
         TV LG
       </h1>
@@ -26,7 +26,7 @@ export default function iphone() {
           <div>3</div>
           Abra o aplicativo instalado e confirme os termos (caso ele peça)
         </li>
-        <li className="flex gap-4 mt-4">
+        <li className="flex gap-4 mt-4 ">
           <div>4</div>
           Preencha os 4 campos com os dados enviados exatamente iguais, sendo
           eles na ordem: NOME QUALQUER, USUÁRIO, SENHA e SERVIDOR
@@ -35,11 +35,12 @@ export default function iphone() {
           <div>5</div>
           Aperte para entrar e fique a vontade para usar
         </li>
-        <p className="mt-9 w-full max-w-[342px] text-center opacity-70">
+       
+      </ol>
+      <p className="mt-9 w-full max-w-[342px] text-center opacity-70">
           Caso tenha algum erro, entre em contato e envie uma foto da tela para
           verificarmos o que houve
         </p>
-      </ol>
     </div>
   );
 }

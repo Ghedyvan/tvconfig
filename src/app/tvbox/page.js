@@ -5,7 +5,7 @@ import downImg from "@/app/assets/downloaderApp.png";
 
 export default function iphone() {
   return (
-    <div className="px-[24px]">
+    <div className="px-[24px] flex flex-col justify-center items-center">
       <h1 className="w-full max-w-[342px] text-center text-[40px] pt-[22px] font-bold">
         TV BOX <span className="opacity-60">ou </span>TV ANDROID
       </h1>

@@ -1,9 +1,9 @@
 import Header from "@/app/components/Header";
 import Buttons from "@/app/components/Buttons";
 
-export default function iphone() {
+export default function rok() {
   return (
-    <div className="px-[24px]">
+    <div className="px-[24px] flex flex-col justify-center items-center">
       <h1 className="w-full max-w-[342px] text-center text-[40px] pt-[22px] font-bold">
         TV ROKU
       </h1>
@@ -28,10 +28,11 @@ export default function iphone() {
           <div>4</div>
           Após te confirmar na nossa conversa que o app já foi configurado, basta continuar e utilizar
         </li>
-        <p className="mt-9 w-full max-w-[342px] text-center opacity-70">
+       
+      </ol>
+      <p className="mt-9 w-full flex justify-center items-center max-w-[342px] text-center opacity-70">
           Todos os aplicativos para ROKU tem uma tarifa que o próprio app cobra, mas seu app irá funcionar normalmente durante os primeiros 7 dias e só depois precisará ativar
         </p>
-      </ol>
     </div>
   );
 }
