@@ -3,7 +3,7 @@ import Buttons from "../components/Buttons";
 
 export default function android() {
   return (
-    <div className="px-[24px] flex flex-col justify-center items-center">
+    <div className="px-[24px] flex flex-col justify-center items-center bg-gray-900 text-white pb-[160px]">
       <h1 className="w-full max-w-[342px] text-center text-[40px] pt-[22px] font-bold">
         ANDROID
       </h1>

@@ -3,7 +3,7 @@ import "../styles/main.scss"
 
 export default function Main() {
   return (
-    <div className="px-[24px] mainClass flex flex-col justify-center items-center ">
+    <div className="px-[24px] mainClass flex flex-col justify-center items-center bg-gray-900 text-white pb-[160px]">
        <h1 className="w-full text-center text-[40px] pt-[22px] font-bold items-center flex justify-center">
        Configure seu APP sem dificuldades
         </h1>

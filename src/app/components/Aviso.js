@@ -17,7 +17,7 @@ export default function Aviso() {
     };
 
     return (
-        <div className="bg-black aviso transition-opacity duration-3000  opacity-100 w-screen z-999 h-screen absolute flex overflow-hidden justify-center items-center">
+        <div className="bg-gray-900 aviso transition-opacity duration-3000 opacity-100 w-screen z-999 h-screen absolute flex overflow-hidden justify-center items-center text-white">
             {/* <Image src={  } /> */}
             <div className="px-6 relative top-0 flex-col w-full max-w-[700px]">
                 <h1 className="text-justify">

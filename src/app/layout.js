@@ -1,5 +1,6 @@
 'use client'
 
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google'
 import Header from './components/Header'
 import './globals.css'
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <Aviso  />
         <Header />
         {children}
+        <Analytics />
         <Footer />
         </body>
     </html>
